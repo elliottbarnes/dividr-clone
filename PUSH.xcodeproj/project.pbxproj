@@ -15,6 +15,9 @@
 		72548F5F247429E000A94D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72548F5D247429E000A94D32 /* Main.storyboard */; };
 		72548F61247429E100A94D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72548F60247429E100A94D32 /* Assets.xcassets */; };
 		72548F64247429E100A94D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72548F62247429E100A94D32 /* LaunchScreen.storyboard */; };
+		72548F6C24742C3F00A94D32 /* GameElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72548F6B24742C3F00A94D32 /* GameElement.swift */; };
+		72548F6E24744A7300A94D32 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72548F6D24744A7300A94D32 /* GameOverScene.swift */; };
+		72548F7024744D7B00A94D32 /* TooComfortable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72548F6F24744D7B00A94D32 /* TooComfortable.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		72548F60247429E100A94D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72548F63247429E100A94D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72548F65247429E100A94D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72548F6B24742C3F00A94D32 /* GameElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElement.swift; sourceTree = "<group>"; };
+		72548F6D24744A7300A94D32 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		72548F6F24744D7B00A94D32 /* TooComfortable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TooComfortable.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +66,13 @@
 		72548F52247429E000A94D32 /* PUSH */ = {
 			isa = PBXGroup;
 			children = (
+				72548F6F24744D7B00A94D32 /* TooComfortable.mp3 */,
 				72548F53247429E000A94D32 /* AppDelegate.swift */,
+				72548F6D24744A7300A94D32 /* GameOverScene.swift */,
 				72548F55247429E000A94D32 /* GameScene.sks */,
 				72548F57247429E000A94D32 /* Actions.sks */,
 				72548F59247429E000A94D32 /* GameScene.swift */,
+				72548F6B24742C3F00A94D32 /* GameElement.swift */,
 				72548F5B247429E000A94D32 /* GameViewController.swift */,
 				72548F5D247429E000A94D32 /* Main.storyboard */,
 				72548F60247429E100A94D32 /* Assets.xcassets */,
@@ -133,6 +142,7 @@
 			files = (
 				72548F5F247429E000A94D32 /* Main.storyboard in Resources */,
 				72548F56247429E000A94D32 /* GameScene.sks in Resources */,
+				72548F7024744D7B00A94D32 /* TooComfortable.mp3 in Resources */,
 				72548F61247429E100A94D32 /* Assets.xcassets in Resources */,
 				72548F64247429E100A94D32 /* LaunchScreen.storyboard in Resources */,
 				72548F58247429E000A94D32 /* Actions.sks in Resources */,
@@ -146,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72548F6E24744A7300A94D32 /* GameOverScene.swift in Sources */,
+				72548F6C24742C3F00A94D32 /* GameElement.swift in Sources */,
 				72548F5A247429E000A94D32 /* GameScene.swift in Sources */,
 				72548F5C247429E000A94D32 /* GameViewController.swift in Sources */,
 				72548F54247429E000A94D32 /* AppDelegate.swift in Sources */,
