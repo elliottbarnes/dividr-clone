@@ -1,2 +1,3 @@
-# Push
-A Dividr clone created to learn SpriteKit
+# DividrClone
+Dividr Clone
+Educational Purposes
